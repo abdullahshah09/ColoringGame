@@ -1,0 +1,46 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px;
+  
+  
+}
+
+.grid-item {
+  cursor: pointer;
+  border: 2px solid black;
+  width: 100px;
+  height: 100px;
+}
+
+#topDiv {
+  width: 600px;
+  height: 70px;
+  text-align: center;
+  color:white;
+  font-weight: bold;
+  font-size: larger;
+  line-height: 70px;
+  text-transform: uppercase;
+  background-color: lavender;
+}
+
+#adjDiv {
+  top: 50px;
+  height: 100px;
+  width: 600px;
+  line-height: 100px;
+  text-align: center;
+  font-size: 32pt;
+  background-color: lavender;
+}
+
+#startButton {
+  width: 200px;
+  height: 100px;
+  position: relative;
+  float: left;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  font-size: 20pt;
+}
